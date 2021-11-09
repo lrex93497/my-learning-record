@@ -3,4 +3,4 @@ My learning record, contains many small programs
 
 My sequence of learning: <br/>
 
-Some C# for unity -> basic C -> python ->java ->MySQL with java
+basic C -> python ->java ->MySQL with java
