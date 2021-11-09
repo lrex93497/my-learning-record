@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1636392796 source:f:\coding\ctut\github\read_and_write\main.c
+	<stdio.h>
+	<stdlib.h>
+
