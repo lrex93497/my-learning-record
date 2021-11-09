@@ -1,0 +1,58 @@
+INSERT INTO test1 VALUES("xxx");     //addvalue
+
+select * FROM test1; 		//find value
+
+SELECT * FROM test1 WHERE name like 'a%';    //find value start with a   
+
+select xxx FROM test1; 		//find value in column xxx
+
+DELETE FROM test1 WHERE name = "xxx";    	//delete exact value
+
+DELETE FROM test1 WHERE NAME=?;   
+stmt.setString(n, xxx)      //stmt ican be any value setted
+
+
+//procedures
+IN	//read only 
+OUT 	//write only
+INOUT	//both
+//below, find number smaller than mNumber
+
+......PROCEDURE 'simple'(IN mNumber INT)
+BEGIN
+	SELECT number FROM test1 WHERE test1.number<mNumber;
+END
+////////
+
+SELECT Count(*) INTO xxx...  //ruturn count number of selected value
+
+AUTO_INCREMENT  //for first column
+
+SHOW COLUMNS FROM ingredients_management  //show column
+
+INSERT INTO customer_status (column) values ('1')  //for many row in same time, need remove safety
+
+UPDATE table SET column= xxx WHERE id =1  //update value in database
+
+SELECT * FROM ingredients_management ORDER BY id_event DESC LIMIT 1; //get last id
+
+DELETE FROM table WHERE column != 'xxx'
+
+SELECT COUNT(*) FROM Table;
+
+Statement stmt = con.createStatement();
+ResultSet rs = stmt.executeQuery(query);
+ResultSetMetaData rsmd = rs.getMetaData();
+int columnsNumber = rsmd.getColumnCount();
+
+
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY '123'; //new user
+
+GRANT ALL PRIVILEGES ON * . * TO 'newuser'@'localhost';  //grant all PRIVILEGES to that user, deafult is none
+
+
+
+
+
+
+
