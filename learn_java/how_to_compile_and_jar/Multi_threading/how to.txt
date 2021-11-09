@@ -1,0 +1,13 @@
+set path=xxxxx\java\jdkfolder\bin
+javac xxx.java<-- compile
+jar cfm xxx.jar manifest.txt *.class folder2/*.class ....  <--folder
+
+java -jar xxx.jar <--run jar
+
+
+add manifest.txt like below , this is Main.class as main class
+/*		manifest.txt 
+Main-Class: Main
+
+
+*/
