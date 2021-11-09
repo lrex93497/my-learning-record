@@ -1,2 +1,6 @@
 # my-learning-record
-my learning record, contains many small programs
+My learning record, contains many small programs
+
+My sequence of learning: <br/>
+
+Some C# for unity -> basic C -> python ->java
